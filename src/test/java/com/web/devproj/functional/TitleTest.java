@@ -10,7 +10,7 @@ public class TitleTest {
 	@Test
 	public void testTtile() {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver","/home/sarthak/Downloads/DevProject-main/Driver/geckodriver");
+		System.setProperty("webdriver.gecko.driver","/home/reddy/Downloads/gecko-master/geckodriver");
 		FirefoxOptions opts = new FirefoxOptions();
 		opts.setHeadless(true);
 		WebDriver driver= new FirefoxDriver(opts);
